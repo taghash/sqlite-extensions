@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go.riyazali.net/sqlite"
+	"github.com/taghash/sqlite-extensions"
 )
 
 // Sum implements a window functions (that also doubles up as a normal aggregate function)
