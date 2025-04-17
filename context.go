@@ -8,6 +8,7 @@ package sqlite
 import "C"
 
 import (
+	"time"
 	"unsafe"
 
 	"github.com/mattn/go-pointer"
@@ -59,6 +60,11 @@ func (ctx Context) ResultError(err error) {
 	defer C.free(unsafe.Pointer(cerrstr))
 	C._sqlite3_result_error(ctx.ptr, cerrstr, C.int(len(errstr)))
 }
+
+func (ctx Context) ResultDatetime(v time.Time) {
+	ctx.ResultInt64(v.Unix())
+}
+
 
 func (ctx Context) ResultPointer(val interface{}) {
 	ptr := pointer.Save(val)
