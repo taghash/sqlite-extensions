@@ -62,9 +62,9 @@ func (ctx Context) ResultError(err error) {
 }
 
 func (ctx Context) ResultDatetime(v time.Time) {
-	ctx.ResultInt64(v.Unix())
+	formatted := v.Format("2006-01-02")
+	ctx.ResultText(formatted)
 }
-
 
 func (ctx Context) ResultPointer(val interface{}) {
 	ptr := pointer.Save(val)
