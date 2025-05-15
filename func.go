@@ -16,10 +16,11 @@ import "C"
 
 import (
 	"errors"
-	"github.com/mattn/go-pointer"
 	"reflect"
 	"sync"
 	"unsafe"
+
+	"github.com/mattn/go-pointer"
 )
 
 var ( // protected store used by aggregate context

@@ -1,4 +1,4 @@
-module go.riyazali.net/sqlite
+module github.com/taghash/sqlite-extensions
 
 go 1.14
 

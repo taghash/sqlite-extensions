@@ -7,7 +7,7 @@ package sqlite
 //
 // #include "../../../sqlite3.h"
 //
-// // extension function defined in the archive from go.riyazali.net/sqlite
+// // extension function defined in the archive from github.com/taghash/sqlite-extensions
 // // the symbol is only available during the final linkage when compiling the binary
 // extern int sqlite3_extension_init(sqlite3*, char**, const sqlite3_api_routines*);
 import "C"

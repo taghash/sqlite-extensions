@@ -3,7 +3,7 @@ package sqlite_test
 import (
 	"errors"
 	"fmt"
-	. "go.riyazali.net/sqlite"
+	. "github.com/taghash/sqlite-extensions"
 	"testing"
 )
 

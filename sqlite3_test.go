@@ -3,7 +3,7 @@ package sqlite_test
 import (
 	"database/sql"
 	_ "github.com/mattn/go-sqlite3"
-	_ "go.riyazali.net/sqlite/internal/testing/sqlite"
+	_ "github.com/taghash/sqlite-extensions/internal/testing/sqlite"
 	"os"
 	"testing"
 )

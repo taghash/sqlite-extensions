@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go.riyazali.net/sqlite"
+	"github.com/taghash/sqlite-extensions"
 )
 
 // CsvModule provides an implementation of an sqlite virtual table for reading CSV files.

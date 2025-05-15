@@ -2,7 +2,7 @@ package sqlite_test
 
 import (
 	"database/sql"
-	. "go.riyazali.net/sqlite"
+	. "github.com/taghash/sqlite-extensions"
 	"testing"
 )
 

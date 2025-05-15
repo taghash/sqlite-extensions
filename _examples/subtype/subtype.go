@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go.riyazali.net/sqlite"
+	"github.com/taghash/sqlite-extensions"
 )
 
 

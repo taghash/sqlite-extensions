@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	. "go.riyazali.net/sqlite"
+	. "github.com/taghash/sqlite-extensions"
 )
 
 // Upper implements a UPPER(...) sql scalar function
